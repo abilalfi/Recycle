@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycle - Edukasi Sampah & Lingkungan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-recycle"></i>
+                    <span>Recycle</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#jenis-sampah" class="nav-link">Jenis Sampah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#masa-penguraian" class="nav-link">Masa Penguraian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#daur-ulang" class="nav-link">Daur Ulang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tips" class="nav-link">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#kontak" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Mari <span class="highlight">Daur Ulang</span> untuk 
+                    <span class="highlight">Masa Depan</span> yang Lebih Baik
+                </h1>
+                <p class="hero-description">
+                    Edukasi tentang pentingnya pengelolaan sampah yang benar untuk menjaga kelestarian lingkungan dan menciptakan masa depan yang berkelanjutan.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#jenis-sampah" class="btn btn-primary">Mulai Belajar</a>
+                    <a href="#tips" class="btn btn-secondary">Tips Praktis</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-cards">
+                    <div class="card organic">
+                        <i class="fas fa-leaf"></i>
+                        <span>Organik</span>
+                    </div>
+                    <div class="card plastic">
+                        <i class="fas fa-recycle"></i>
+                        <span>Plastik</span>
+                    </div>
+                    <div class="card paper">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Kertas</span>
+                    </div>
+                    <div class="card metal">
+                        <i class="fas fa-cog"></i>
+                        <span>Logam</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jenis Sampah Section -->
+    <section id="jenis-sampah" class="waste-types">
+        <div class="container">
+            <div class="section-header">
+                <h2>Jenis-Jenis Sampah</h2>
+                <p>Mari kenali berbagai jenis sampah dan cara penanganannya yang tepat</p>
+            </div>
+            <div class="waste-grid">
+                <div class="waste-card organic">
+                    <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sampah Organik</h3>
+                    <p>Sampah yang berasal dari sisa makanan, daun, dan bahan alami lainnya yang dapat terurai secara alami.</p>
+                    <ul class="waste-examples">
+                        <li>Sisa makanan</li>
+                        <li>Daun-daunan</li>
+                        <li>Kulit buah</li>
+                        <li>Kotoran hewan</li>
+                    </ul>
+                    <div class="disposal-method">
+                        <strong>Cara Penanganan:</strong> Kompos, Biogas, atau dibuang ke tempat sampah organik
+                    </div>
+                </div>
+
+                <div class="waste-card plastic">
+                    <div class="card-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Sampah Plastik</h3>
+                    <p>Bahan sintetis yang sulit terurai dan membutuhkan waktu ratusan tahun untuk hancur.</p>
+                    <ul class="waste-examples">
+                        <li>Botol plastik</li>
+                        <li>Kantong plastik</li>
+                        <li>Kemasan makanan</li>
+                        <li>Mainan plastik</li>
+                    </ul>
+                    <div class="disposal-method">
+                        <strong>Cara Penanganan:</strong> Daur ulang, gunakan ulang, atau buang ke tempat sampah plastik
+                    </div>
+                </div>
+
+                <div class="waste-card paper">
+                    <div class="card-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Sampah Kertas</h3>
+                    <p>Bahan yang terbuat dari serat kayu dan dapat didaur ulang dengan mudah.</p>
+                    <ul class="waste-examples">
+                        <li>Koran bekas</li>
+                        <li>Kardus</li>
+                        <li>Kertas tulis</li>
+                        <li>Buku bekas</li>
+                    </ul>
+                    <div class="disposal-method">
+                        <strong>Cara Penanganan:</strong> Daur ulang, gunakan ulang, atau buang ke tempat sampah kertas
+                    </div>
+                </div>
+
+                <div class="waste-card metal">
+                    <div class="card-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Sampah Logam</h3>
+                    <p>Bahan metal yang dapat didaur ulang dan memiliki nilai ekonomis.</p>
+                    <ul class="waste-examples">
+                        <li>Kaleng minuman</li>
+                        <li>Besi bekas</li>
+                        <li>Aluminium</li>
+                        <li>Kawat</li>
+                    </ul>
+                    <div class="disposal-method">
+                        <strong>Cara Penanganan:</strong> Daur ulang, jual ke pengepul, atau buang ke tempat sampah logam
+                    </div>
+                </div>
+
+                <div class="waste-card glass">
+                    <div class="card-icon">
+                        <i class="fas fa-wine-bottle"></i>
+                    </div>
+                    <h3>Sampah Kaca</h3>
+                    <p>Bahan yang dapat didaur ulang tanpa kehilangan kualitas.</p>
+                    <ul class="waste-examples">
+                        <li>Botol kaca</li>
+                        <li>Gelas pecah</li>
+                        <li>Kaca jendela</li>
+                        <li>Lampu</li>
+                    </ul>
+                    <div class="disposal-method">
+                        <strong>Cara Penanganan:</strong> Daur ulang atau buang ke tempat sampah kaca
+                    </div>
+                </div>
+
+                <div class="waste-card hazardous">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Sampah B3</h3>
+                    <p>Bahan Berbahaya dan Beracun yang memerlukan penanganan khusus.</p>
+                    <ul class="waste-examples">
+                        <li>Baterai</li>
+                        <li>Obat-obatan</li>
+                        <li>Cat</li>
+                        <li>Pestisida</li>
+                    </ul>
+                    <div class="disposal-method">
+                        <strong>Cara Penanganan:</strong> Serahkan ke tempat pengolahan khusus B3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Masa Penguraian Section -->
+    <section id="masa-penguraian" class="decomposition">
+        <div class="container">
+            <div class="section-header">
+                <h2>Masa Penguraian Sampah</h2>
+                <p>Ketahui berapa lama waktu yang dibutuhkan berbagai jenis sampah untuk terurai secara alami</p>
+            </div>
+            
+            <div class="decomposition-timeline">
+                <div class="timeline-item organic">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%232ECC71'/%3E%3Cpath d='M30 40 L45 55 L70 30' stroke='white' stroke-width='3' fill='none'/%3E%3C/svg%3E" alt="Sampah Organik">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Sampah Organik</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">2-6 minggu</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Sampah organik seperti sisa makanan, daun, dan kulit buah dapat terurai dengan cepat karena mengandung bahan alami yang mudah dipecah oleh mikroorganisme.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Kulit pisang, sisa sayuran, daun kering, kotoran hewan
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item paper">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='20' y='20' width='60' height='80' rx='5' fill='%23E67E22'/%3E%3Crect x='30' y='30' width='40' height='3' fill='white'/%3E%3Crect x='30' y='40' width='40' height='3' fill='white'/%3E%3Crect x='30' y='50' width='30' height='3' fill='white'/%3E%3C/svg%3E" alt="Kertas">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Kertas</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">2-5 bulan</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Kertas terbuat dari serat kayu yang dapat terurai secara alami, namun prosesnya lebih lama dibanding sampah organik karena struktur serat yang lebih kompleks.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Koran, kardus, kertas tulis, tisu
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item cotton">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M30 20 L70 20 L75 30 L70 50 L60 60 L40 60 L30 50 L25 30 Z' fill='%239B59B6'/%3E%3Cpath d='M30 20 L25 30 L30 50 L40 60' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E" alt="Kain Katun">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Kain Katun</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">1-5 bulan</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Kain katun alami dapat terurai dengan relatif cepat karena terbuat dari serat tumbuhan alami.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Kaos katun, handuk, sprei
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item wood">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='45' y='60' width='10' height='30' fill='%238B4513'/%3E%3Cpath d='M50 20 Q30 30 40 50 Q60 30 50 20' fill='%23228B22'/%3E%3C/svg%3E" alt="Kayu">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Kayu</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">1-3 tahun</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Kayu membutuhkan waktu lebih lama untuk terurai karena struktur selulosa yang kuat, namun masih dapat terurai secara alami.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Potongan kayu, serutan, furniture kayu
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item cigarette">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-smoking-ban"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='40' y='20' width='20' height='60' rx='10' fill='%2395A5A6'/%3E%3Crect x='45' y='15' width='10' height='10' fill='%23FF6B6B'/%3E%3C/svg%3E" alt="Filter Rokok">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Filter Rokok</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">1-5 tahun</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Filter rokok terbuat dari selulosa asetat yang sulit terurai dan dapat mencemari lingkungan dalam waktu lama.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Filter rokok, puntung rokok
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item leather">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-shoe-prints"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cellipse cx='50' cy='50' rx='35' ry='25' fill='%23D2691E'/%3E%3Cpath d='M30 45 Q50 35 70 45' stroke='white' stroke-width='2' fill='none'/%3E%3C/svg%3E" alt="Kulit">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Kulit</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">25-40 tahun</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Kulit yang telah diolah menjadi produk seperti sepatu atau jaket membutuhkan waktu puluhan tahun untuk terurai.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Sepatu kulit, jaket kulit, tas kulit
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item aluminum">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='30' y='30' width='40' height='40' rx='5' fill='%2395A5A6'/%3E%3Crect x='35' y='35' width='30' height='30' rx='3' fill='white'/%3E%3C/svg%3E" alt="Aluminium">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Aluminium</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">80-200 tahun</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Aluminium adalah logam yang sangat sulit terurai dan dapat bertahan di lingkungan selama ratusan tahun.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Kaleng minuman, foil aluminium, panci aluminium
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item plastic">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='30' y='20' width='40' height='60' rx='20' fill='%233498DB'/%3E%3Crect x='35' y='25' width='30' height='50' rx='15' fill='white'/%3E%3C/svg%3E" alt="Plastik">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Plastik</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">450-1000 tahun</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Plastik adalah salah satu bahan yang paling sulit terurai dan dapat mencemari lingkungan selama ribuan tahun.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Botol plastik, kantong plastik, kemasan plastik
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass">
+                    <div class="timeline-visual">
+                        <div class="timeline-icon">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='40' y='20' width='20' height='60' rx='10' fill='%23E74C3C'/%3E%3Crect x='42' y='18' width='16' height='8' rx='8' fill='%23E74C3C'/%3E%3C/svg%3E" alt="Kaca">
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Kaca</h3>
+                        <div class="decomposition-time">
+                            <span class="time-value">1 juta tahun</span>
+                            <span class="time-label">Waktu Penguraian</span>
+                        </div>
+                        <p>Kaca praktis tidak dapat terurai secara alami dan dapat bertahan di lingkungan selama jutaan tahun.</p>
+                        <div class="examples">
+                            <strong>Contoh:</strong> Botol kaca, gelas, kaca jendela
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decomposition-impact">
+                <h3>Dampak Masa Penguraian Terhadap Lingkungan</h3>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <i class="fas fa-water"></i>
+                        <h4>Pencemaran Air</h4>
+                        <p>Sampah yang sulit terurai dapat mencemari air tanah dan laut, mengancam ekosistem perairan.</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-seedling"></i>
+                        <h4>Kerusakan Tanah</h4>
+                        <p>Sampah yang tidak terurai dapat merusak struktur tanah dan menghambat pertumbuhan tanaman.</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-fish"></i>
+                        <h4>Bahaya Bagi Hewan</h4>
+                        <p>Hewan dapat terjerat atau memakan sampah yang tidak terurai, menyebabkan cedera atau kematian.</p>
+                    </div>
+                    <div class="impact-card">
+                        <i class="fas fa-lungs"></i>
+                        <h4>Polusi Udara</h4>
+                        <p>Pembakaran sampah yang tidak tepat dapat menghasilkan gas beracun yang mencemari udara.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decomposition-tips">
+                <h3>Tips Mengurangi Dampak Masa Penguraian</h3>
+                <div class="tips-list">
+                    <div class="tip-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Pilih produk dengan kemasan yang mudah terurai</span>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Gunakan produk yang dapat didaur ulang</span>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Kurangi penggunaan plastik sekali pakai</span>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Komposkan sampah organik di rumah</span>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Daur ulang kertas, kaca, dan logam</span>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Gunakan produk yang dapat digunakan berulang kali</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daur Ulang Section -->
+    <section id="daur-ulang" class="recycling">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cara Daur Ulang</h2>
+                <p>Langkah-langkah praktis untuk mendaur ulang berbagai jenis sampah</p>
+            </div>
+            <div class="recycling-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Pisahkan Sampah</h3>
+                        <p>Pisahkan sampah berdasarkan jenisnya (organik, plastik, kertas, logam, kaca)</p>
+                        <div class="step-icon">
+                            <i class="fas fa-sort"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Bersihkan Sampah</h3>
+                        <p>Cuci bersih sampah yang akan didaur ulang untuk menghilangkan kotoran</p>
+                        <div class="step-icon">
+                            <i class="fas fa-soap"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Kumpulkan</h3>
+                        <p>Kumpulkan sampah dalam wadah terpisah sesuai jenisnya</p>
+                        <div class="step-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Serahkan ke Bank Sampah</h3>
+                        <p>Bawa ke bank sampah atau tempat daur ulang terdekat</p>
+                        <div class="step-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recycling-benefits">
+                <h3>Manfaat Daur Ulang</h3>
+                <div class="benefits-grid">
+                    <div class="benefit">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Lingkungan Bersih</h4>
+                        <p>Mengurangi polusi dan menjaga kelestarian alam</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h4>Ekonomi Hijau</h4>
+                        <p>Menghasilkan pendapatan dari sampah yang didaur ulang</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-heart"></i>
+                        <h4>Kesehatan</h4>
+                        <p>Mencegah penyakit dan menjaga kesehatan masyarakat</p>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-seedling"></i>
+                        <h4>Keberlanjutan</h4>
+                        <p>Menciptakan masa depan yang berkelanjutan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="tips">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tips Mengurangi Sampah</h2>
+                <p>Kiat-kiat praktis untuk mengurangi produksi sampah dalam kehidupan sehari-hari</p>
+            </div>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Bawa Tas Belanja Sendiri</h3>
+                    <p>Gunakan tas kain atau tas belanja yang dapat digunakan berulang kali untuk mengurangi penggunaan kantong plastik.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Bawa Tumbler</h3>
+                    <p>Bawa botol minum atau tumbler sendiri untuk mengurangi penggunaan botol plastik sekali pakai.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Gunakan Peralatan Makan Sendiri</h3>
+                    <p>Bawa sendok, garpu, dan sedotan yang dapat digunakan berulang kali.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Beli dalam Kemasan Besar</h3>
+                    <p>Pilih produk dengan kemasan besar untuk mengurangi jumlah sampah kemasan.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Gunakan Ulang</h3>
+                    <p>Kreatif dalam menggunakan ulang barang-barang yang sudah tidak terpakai.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Kompos Sampah Organik</h3>
+                    <p>Buat kompos dari sampah organik untuk menyuburkan tanaman di rumah.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <p>Mari bergabung dalam gerakan peduli lingkungan</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@recycle.id</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 821 1179 3138</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Bandung, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-recycle"></i>
+                        <span>Recycle</span>
+                    </div>
+                    <p>Mari bersama-sama menjaga kelestarian lingkungan melalui pengelolaan sampah yang benar.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#jenis-sampah">Jenis Sampah</a></li>
+                        <li><a href="#masa-penguraian">Masa Penguraian</a></li>
+                        <li><a href="#daur-ulang">Daur Ulang</a></li>
+                        <li><a href="#tips">Tips</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Muhammad Abdillah. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
